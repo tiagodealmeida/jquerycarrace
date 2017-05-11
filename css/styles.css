@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+}
+
+#racetrack {
+  background: url('../img/road.jpg') center left repeat-x;
+  border-right: dashed 10px white; /* finish line */
+  box-sizing: border-box;
+  height: 330px;
+  margin: 40px 0;
+}
+
+.car {
+  display: block;
+  position: relative;
+}
+
+#car1 { top: 30px; }
+#car2 { top: 100px; }
+
+#raceInfoContainer {
+  background: #333;
+  height: 200px;
+  margin: 40px auto 0;
+  width: 80%;
+}
+
+#raceInfoContainer h2 {
+  border-bottom: solid 1px white;
+  color: white;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+.raceInfo {
+  color: white;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.raceInfo span {
+  color: white;
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#raceInfo1 {
+  color: #77b82f;
+}
+
+#raceInfo2 {
+  color: #b82f3e;
+}
+
+input[type="button"] {
+  background: #77b72f;
+  border: solid 1px #444;
+  color: white;
+  padding: 10px 20px;
+}
+
+input#reset {
+  background: #fc3;
+  color: #444;
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: table;
+} /* clearfix for precaution - Force an Element To Self-Clear its Children */
